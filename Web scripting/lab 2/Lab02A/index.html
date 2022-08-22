@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>CS 325 Lab #2A: JavaScript Test Page</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Lab #2A: JavaScript Test Page</h1>
+
+    </header>
+
+    <section>
+
+        <h2>Fade In/Out</h2>
+        <p>CSS transition effects make it easy to smoothly fade elements in or out:</p>
+
+        <ul class="fadeboxlist">
+            <li id="fadebox1" class="fadebox">Click Me!</li>
+            <li id="fadebox2" class="fadebox">Click Me!</li>
+            <li id="fadebox3" class="fadebox">Click Me!</li>
+            <li id="fadebox4" class="fadebox">Click Me!</li>
+            <li id="fadebox5" class="fadebox">Click Me!</li>
+        </ul>
+
+        <p style="clear: left;"><button type="button" onclick="showFadeBoxes();">Fade In</button></p>
+
+        <hr>
+
+        <h2>Changing Element Content and Styles</h2>
+        <p>Using JavaScript, you can dynamically change the content, and the style, of individual elements:</p>
+        <p><span id="labeltest">CLICK TO CHANGE THIS</span></p>
+        <p><button type="button" onclick="changeLabel();">Try It!</button></p>
+
+        <hr>
+
+        <h2>Using Variables</h2>
+        <p>Using JavaScript, you can create <em>variables</em> to hold values or objects:</p>
+        <p><span id="countertest">JavaScript Counter: 1</span></p>
+        <p><button type="button" onclick="incrementCounter();">Increment the Counter</button></p>
+
+    </section>
+
+    <footer>CS 325 Lab #2A (Spring 2022)</footer>
+
+    <script type="text/javascript" src="Lab02A.js"></script>
+
+</body>
+
+</html>

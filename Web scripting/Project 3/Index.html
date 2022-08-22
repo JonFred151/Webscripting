@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CS 325 Project #1</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+
+
+<body>
+    
+    <form name="testform" id="testform">
+        <fieldset>
+            <legend>Class Schedule Search</legend>
+            <label for = "Sub" >Subject:</label>
+            <select name = "subject" id = "subject">
+                <option value = "SUB"></option>
+            </select>
+            <p> </p>
+            <label for = "Description">Description:</label>
+            <select name = "desc" id = "desc">
+                <option value = "DESC"></option>
+            </select>
+            <p> </p>
+            <label for = "numb" >Class number:</label>
+            <Select name = "num" id ="num" >
+                <option value= "NUM"></option>
+            </Select>
+            <p> </p>
+            <label for = "STime" >Start Time: hours</label>
+            <select name="sTime" id="sTime">
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+                <option value = "4">4</option>
+                <option value = "5">5</option>
+                <option value = "6">6</option>
+                <option value = "7">7</option>
+                <option value = "8">8</option>
+                <option value = "9">9</option>
+                <option value = "10">10</option>
+                <option value = "11">11</option>
+                <option value = "12">12</option>
+            </select>
+            <label for = "MTime" >Minute</label>
+            <select name ="mTime" id = "mTime">
+                <option value = "00">00</option>
+                <option value = "05">05</option>
+                <option value = "10">10</option>
+                <option value = "15">15</option>
+                <option value = "20">20</option>
+                <option value = "25">25</option>
+                <option value = "30">30</option>
+                <option value = "35">35</option>
+                <option value = "40">40</option>
+                <option value = "45">45</option>
+                <option value = "50">50</option>
+                <option value = "55">55</option>
+            </select>
+            <label for = "AM" >AM/PM</label>
+            <select name = "am" id = "am">
+                <option vaule = "Am">am</option>
+                <option vaule = "Pm">pm</option>
+            </select>
+            <p> </p>
+            <label for = "FTime" >Finish Time: hours</label>
+            <select name="fTime" id="fTime">
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+                <option value = "4">4</option>
+                <option value = "5">5</option>
+                <option value = "6">6</option>
+                <option value = "7">7</option>
+                <option value = "8">8</option>
+                <option value = "9">9</option>
+                <option value = "10">10</option>
+                <option value = "11">11</option>
+                <option value = "12">12</option>
+            </select>
+            <label for = "MITime" >Minute</label>
+            <select name ="miTime" id = "miTime">
+                <option value = "00">00</option>
+                <option value = "05">05</option>
+                <option value = "10">10</option>
+                <option value = "15">15</option>
+                <option value = "20">20</option>
+                <option value = "25">25</option>
+                <option value = "30">30</option>
+                <option value = "35">35</option>
+                <option value = "40">40</option>
+                <option value = "45">45</option>
+                <option value = "50">50</option>
+                <option value = "55">55</option>
+            </select>
+            <label for = "pM" >AM/PM</label>
+            <select name = "pm" id = "pm">
+                <option vaule = "Am">am</option>
+                <option vaule = "Pm">pm</option>
+            </select>
+            
+            <p>Days:
+            <input type ="checkbox" name="Monday" id = "Monday" value = "Monday" >
+            <label for="Monday">Monday</label>
+            
+            <input type ="checkbox" name="Tuesday" id = "Tuesday" value = "Tuesday" >
+            <label for="Tuesday">Tuesday</label>
+
+            <input type ="checkbox" name="Wednesday" id = "Wednesday" value = "Wednesday" >
+            <label for="Wednesday">Wednesday</label>
+
+            <input type ="checkbox" name="Thursday" id = "Thursday" value = "Thursday" >
+            <label for="Thursday">Thursday</label>
+
+            <input type ="checkbox" name="Friday" id = "Friday" value = "Friday" >
+            <label for="Friday">Friday</label>
+            </p>
+            <p> </p>
+            <label for="Sch">Schedule Type:</label>
+            <select name="schedule" id="schedule" ></select>
+                <option value = "CS"></option> 
+            <input type="button" value="Submit" onclick="Project3.onClick();">
+        </fieldset>
+    </form>
+
+    <div id="output"></div>
+
+    <script type="text/javascript">
+        Project3.start();
+    </script>
+    
+</body>
+
+</html>

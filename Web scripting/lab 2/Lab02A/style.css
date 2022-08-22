@@ -1,0 +1,117 @@
+body {
+
+    background: #5E6F82;
+    font-family: verdana, arial, sans-serif;
+    font-size: 80%;
+
+}
+
+a:link {
+
+    color: #001A82;
+
+}
+
+a:visited {
+
+    color: #5E1B13;
+
+}
+
+header {
+
+    background-color: #C6D1FF;
+    color: #333399;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+section {
+
+    background-color: #EEEEEE;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+footer {
+
+    background-color: #001A82;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+section ul.fadeboxlist {
+
+    list-style: none;
+    padding-left: 0;
+    height: 64px;
+
+}
+
+section ul.fadeboxlist li {
+
+    float: left;
+
+    height: 64px;
+    width: 64px;
+    margin-right: 8px;
+
+    line-height: 64px;
+    text-align: center;
+
+    cursor: pointer;
+
+}
+
+.fadebox {
+
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+
+.fadebox.invisible {
+
+    opacity: 0;
+
+}
+
+#fadebox1 {
+
+    background-color: #D568FD;
+
+}
+
+#fadebox2 {
+
+    background-color: #9669FE;
+
+}
+
+#fadebox3 {
+
+    background-color: #62A9FF;
+
+}
+
+#fadebox4 {
+
+    background-color: #44B4D5;
+
+}
+
+#fadebox5 {
+
+    background-color: #7CEB98;
+
+}

@@ -1,0 +1,75 @@
+body {
+
+	background: #020b14;
+	font-family: verdana, arial, sans-serif;
+	font-size: 80%;
+
+}
+
+a:link {
+
+	color: aqua;
+
+}
+
+a:visited {
+
+	color: crimson;
+
+}
+
+#container {
+
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: 96px;
+	right: 96px;
+
+}
+
+header {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 64px;
+	overflow: hidden;
+
+	background-color: #0f3cee;
+	color: #fbfbff;
+	text-align: center;
+
+}
+
+main {
+
+	position: absolute;
+	top: 64px;
+	bottom: 32px;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	padding: 10px;
+
+	background-color: #020000;
+	color: rgb(255, 251, 251);
+
+}
+
+footer {
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 32px;
+	overflow: hidden;
+
+	background-color: #001A82;
+	color: white;
+	text-align: center;
+	font-size: 70%;
+
+}
